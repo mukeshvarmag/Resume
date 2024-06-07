@@ -120,7 +120,7 @@
     \small{\item{
      \textbf{Languages}{: Java, Python, C/C++, SQL} \\
      \textbf{Frameworks}{: SpringFrameWork, Postman, Spring Test, JUnit, RestAPI, Spring Boot, Apache Spark} \\
-     \textbf{Developer Tools}{: Visual Studio Code, IntelliJ IDEA, Eclipse, Git, GitHub, GitLab, Jenkins, Maven, Azure, Postman, SonarQube, Sql Developer, Wincip} \\
+     \textbf{Developer Tools}{: Visual Studio Code, IntelliJ IDEA, Eclipse, Git, GitHub, GitLab, Jenkins, Maven, Azure, Postman, SonarQube, Sql Developer, WinSCP} \\
      \textbf{Libraries}{: pandas, Apache Commons}
     }}
  \end{itemize}
@@ -171,7 +171,7 @@ referential data snapshots (global and local risk) to Internal System (Market an
             \resumeItem{Implemented transformation logic for the Galaxy system to process and transform large datasets using Java and Apache Spark. The transformation logic aimed to enhance data processing efficiency and ensure high-quality data output for subsequent analytics and reporting. Using Java, Apache Spark, Galaxy API}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{springboot crud operation} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Oracle 19C}}{ \href{https://github.com/mukeshvarmag/spring-boot-crud-operation}{\underline{Self Project}} }
+          {\textbf{springboot crud operation} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Oracle 19C}}{ \href{https://github.com/mukeshvarmag/spring-boot-crud-operation}{\underline{POC}} }
           \resumeItemListStart
             \resumeItem{Developed a Spring Boot CRUD project interfacing with Oracle 19C via REST APIs; integrated Jenkins for automated CI/CD, ensuring seamless testing and deployment pipelines}
             \resumeItem{Utilized Java for backend, Spring Boot, and Maven for project management and dependency resolution}
@@ -180,7 +180,7 @@ referential data snapshots (global and local risk) to Internal System (Market an
             \resumeItem{Integrated Jenkins for automating the build, test, and deployment processes}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{GoDutch Project} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Oracle 19C}}{\href{https://github.com/mukeshvarmag/godutch}{\underline{Self Project}}}
+          {\textbf{GoDutch Project} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Oracle 19C}}{\href{https://github.com/mukeshvarmag/godutch}{\underline{POC}}}
           \resumeItemListStart
             \resumeItem{Created GoDutch, an intuitive expense-splitting app for seamless interactions. Engineered REST API endpoints for efficient communication. Simplified expense sharing among users for enhanced convenience}
             \resumeItem{Utilized Maven for dependency management and Jenkins for continuous integration and deployment pipelines}
