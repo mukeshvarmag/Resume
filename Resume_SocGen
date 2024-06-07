@@ -1,0 +1,192 @@
+%-------------------------
+% Resume in Latex
+% Author : Mukesh
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Mukesh Varma Gugulothu} \\ \vspace{1pt}
+    \small +91 9912501811 $|$ \href{mailto:mukeshvarma.g@gmail.com}{\underline{mukeshvarma.g@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/mukeshvarmagugulothu/}{\underline{linkedin.com/in/mukeshvarmagugulothu/}} $|$
+    \href{https://github.com/mukeshvarmag}{\underline{github.com/mukeshvarmag}}
+\end{center}
+
+\section{professional summary}
+      \resumeItemListStart
+        \resumeItem{Over 1.5 years of experience in risk management, specializing in Java Spring, Spring Boot, web services, and big data technologies. Proficient in Java object-oriented programming (OOP), collections framework, and string manipulation. Adept at designing and implementing robust solutions to mitigate risks and ensure data integrity}
+        \resumeItem{Strong skills in developing and consuming RESTful web services. Experienced SQL developer, adept at working with relational databases. Familiar with continuous integration/continuous deployment (CI/CD) pipelines using tools like Jenkins. Excellent problem-solving skills and ability to work effectively in fast-paced environments.}
+      \resumeItemListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer}{July 2022 -- Present}
+      {Société Générale}{Bengaluru, KA}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL} \\
+     \textbf{Frameworks}{: SpringFrameWork, Postman, Spring Test, JUnit, RestAPI, Spring Boot, Apache Spark} \\
+     \textbf{Developer Tools}{: Visual Studio Code, IntelliJ IDEA, Eclipse, Git, GitHub, GitLab, Jenkins, Maven, Azure, Postman, SonarQube, Sql Developer, Wincip} \\
+     \textbf{Libraries}{: pandas, Apache Commons}
+    }}
+ \end{itemize}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology Kanpur}{6.3/10 GPA}
+      {Bachelor Of Engineering in Mechanical Engineering}{Aug. 2018 -- May 2022}
+    \resumeSubheading
+      {Nano Junior College}{9.55/10 GPA}
+      {Class 12 – TSBIE(XII)}{Aug. 2016 -- May 2018}
+    \resumeSubheading
+      {Montessori High School}{9.2/10 GPA}
+      {Class 10 - SSC}{May 2016}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Local Risk Referential} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Angular, SQL Developer}}{}
+          \resumeItemListStart
+            \resumeItem{ Local Risk Referential system is a solution to manage the private risk reference data and to distribute 
+referential data snapshots (global and local risk) to Internal System (Market and Credit risk)}
+            \resumeItem{Integrated the SGMD API into the L2R using RestTemplate. The SGMD API provides real-time market data essential for accurate risk assessment. As part of the integration process, data updates for the current day (D) and the previous day (D-1) are retrieved from the SGMD API. These updates are then processed in batches and used to update the relevant table in the database.It's important to note that the table initially undergoes a one-time load to populate it with the necessary data.}
+            \resumeItem{Spearheaded the migration of the application to the Oracle Cloud Platform (OCP) in the non-production environment, ensuring seamless deployment and compatibility with cloud infrastructure. Managed the transfer of data, and configurations to OCP, adhering to best practices and minimizing disruption to ongoing development activities. Following the migration, executed comprehensive application-level end-to-end testing to validate system functionality, performance, and reliability.}
+            \resumeItem{Orchestrated the integration of the Galaxy API, serving as the golden source for L2R, to seamlessly consume commodity data.The integration enables L2R to fetch, process, and incorporate commodity data into risk assessment and enhancing accuracy. Using Technologies RestTemplate, Java and Spring Boot}
+            \resumeItem{Successfully completed the migration of all Unix web and batch servers to the latest Linux version. Led the migration process from planning to execution, ensuring minimal disruption to operations and maximum efficiency in the transition. Additionally, performed end-to-end setup of applications, including the installation and configuration of essential software such as Java, Jenkins, Sonar, Node.js, Apache, Angular, and other required components}
+            \resumeItem{Successfully addressed major vulnerabilities identified during weekly security scans by implementing comprehensive remediation measures. This included fixing vulnerabilities across various layers of the infrastructure, encompassing server migration, updating to the latest Linux version, upgrading Java and Tomcat versions}
+            \resumeItem{Created a suite of JUnit test cases to rigorously test the functionality and behavior of respective code modules. Designed test cases to cover various scenarios, including edge cases and error conditions, ensuring comprehensive test coverage and robust code quality}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Societe Generale Market Risk} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Angular}}{}
+          \resumeItemListStart
+            \resumeItem{SGMR is a Limit and Consumption management system for ALM and risk domain}
+            \resumeItem{Description: Led the upgrade of servers to the latest Linux version for the SGMR project, ensuring a seamless transition and optimal configuration for deployment and continuous integration processes. Set up and configured new servers, including a Jenkins slave machine, and established end-to-end deployment pipelines. Using Linux, Jenkins, Java, Deployment Tools}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{BigData Referential} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Spark, Azure}}{}
+          \resumeItemListStart
+            \resumeItem{Bigdata Referential is a referential system that receives data from various sources, transforms and cleanses the data, and loads it into a data lake. The processed data is subsequently utilized by systems such as MPT, Aware, etc}
+            \resumeItem{Improved the CopyReferential API to support enhanced file copying capabilities, enabling the copying of referential data files from any specified date range. The enhancement involved expanding the functionality to retrieve all referentials and facilitate file copying based on user-defined date parameters. Using Swagger, RESTful APIs, Java}
+            \resumeItem{Designed and implemented a Start and Stop Oozie Coordinator API to simplify the management of Oozie workflows, providing users with an accessible and user-friendly interface for starting and stopping Oozie coordinators. Using RESTful APIs, Java, Spring Boot, Apache Oozie}
+            \resumeItem{Implemented transformation logic for the Galaxy system to process and transform large datasets using Java and Apache Spark. The transformation logic aimed to enhance data processing efficiency and ensure high-quality data output for subsequent analytics and reporting. Using Java, Apache Spark, Galaxy API}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{springboot crud operation} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Oracle 19C}}{ \href{https://github.com/mukeshvarmag/spring-boot-crud-operation}{\underline{Self Project}} }
+          \resumeItemListStart
+            \resumeItem{Developed a Spring Boot CRUD project interfacing with Oracle 19C via REST APIs; integrated Jenkins for automated CI/CD, ensuring seamless testing and deployment pipelines}
+            \resumeItem{Utilized Java for backend, Spring Boot, and Maven for project management and dependency resolution}
+            \resumeItem{Integrated Oracle 19C database for data storage and retrieval}
+            \resumeItem{Designed and implemented RESTful endpoints for CRUD operations, adhering to RESTful principles}
+            \resumeItem{Integrated Jenkins for automating the build, test, and deployment processes}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{GoDutch Project} $|$ \emph{Rest API, Java, Maven, Jenkis, Git, Oracle 19C}}{\href{https://github.com/mukeshvarmag/godutch}{\underline{Self Project}}}
+          \resumeItemListStart
+            \resumeItem{Created GoDutch, an intuitive expense-splitting app for seamless interactions. Engineered REST API endpoints for efficient communication. Simplified expense sharing among users for enhanced convenience}
+            \resumeItem{Utilized Maven for dependency management and Jenkins for continuous integration and deployment pipelines}
+            \resumeItem{Orchestrated deployment of GoDutch application JAR onto AWS for extensive testing with diverse user groups}
+          \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
